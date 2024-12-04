@@ -176,3 +176,9 @@ form button{
         transform: rotate(360deg);
     }
 }
+
+@media (max-width: 480px) {
+    .container{
+        width: 400px;
+    }
+}
