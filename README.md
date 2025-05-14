@@ -21,7 +21,7 @@ This project is a simple weather application built using React and Vite. It allo
 ## Screenshots
 
 **Mobile View - Empty State**
-![Mobile View - Empty State](./public/image1.png)
+![Mobile View - Empty State](./public/image4.png)
 
 **Mobile View - Filled State**
 ![Mobile View - Filled State](./public/image2.png)
@@ -30,7 +30,7 @@ This project is a simple weather application built using React and Vite. It allo
 ![Desktop View - Empty State](./public/image3.png)
 
 **Desktop View - Filled State**
-![Desktop View - Filled State](./public/image4.png)
+![Desktop View - Filled State](./public/image1.png)
 
 ## How to Use
 
