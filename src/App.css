@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,14 +14,14 @@ body{
     background-color: #313131;
 }
 
-.container{
+.container {
     background-color: #fff;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
-form{
+form {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -31,17 +31,17 @@ form{
     border-radius: 10px;
 }
 
-form i{
+form i {
     font-size: 1rem;
 }
 
-form input{
+form input {
     font-size: 1rem;
     border: none;
     outline: none;
 }
 
-form button{
+form button {
     border: none;
     background-color: transparent;
     width: 20px;
@@ -52,18 +52,18 @@ form button{
     cursor: pointer;
 }
 
-.cidade{
+.city {
     font-weight: 600;
     text-align: center;
     margin-top: 20px;
     color: #313131;
 }
 
-.info{
+.info {
     display: none;
 }
 
-.div_temp{
+.temp_div {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -74,24 +74,24 @@ form button{
     margin-top: 10px;
 }
 
-.active{
+.active {
     display: block;
 }
 
-.icone{
+.icon {
     width: 100px;
 }
 
-.temperatura{
+.temperature {
     font-size: 2.5rem;
 }
 
-.descricao{
+.description {
     font-weight: 600;
     text-transform: capitalize;
 }
 
-.alerta{
+.alert {
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -102,18 +102,18 @@ form button{
     color: #313131;
 }
 
-.ativo{
+.ativo {
     display: flex;
 }
 
-.outrasInfos{
+.otherInfos {
     margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
 }
 
-.outrasInfos .outraInfo{
+.otherInfos .otherInfo {
     display: flex;
     align-items: center;
     justify-content: start;
@@ -124,41 +124,41 @@ form button{
     gap: 10px;
 }
 
-.outrasInfos .outraInfo h2{
+.otherInfos .otherInfo h2 {
     font-size: 12px;
     font-weight: 600;
 }
 
-.outrasInfos .outraInfo i{
+.otherInfos .otherInfo i {
     text-align: center;
     font-size: 20px;
     width: 20%;
 }
 
-#temp_max_icon{
+#temp_max_icon {
     color: #7f1d1d;
 }
 
-#temp_min_icon{
+#temp_min_icon {
     color: #0284c7;
 }
 
-#temp_umidity_icon{
+#temp_humidity_icon {
     color: #0ea5e9;
 }
 
-#temp_wind_icon{
+#temp_wind_icon {
     color: #7c3aed;
 }
 
-.carregando{
+.loading {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 200px;
 }
 
-.bolinha{
+.spinner {
     width: 100px;
     height: 100px;
     background-color: transparent;
@@ -170,9 +170,11 @@ form button{
 }
 
 @keyframes loading {
-    0%{
+    0% {
         transform: rotate(0deg);
-    } 100%{
+    }
+
+    100% {
         transform: rotate(360deg);
     }
 }
